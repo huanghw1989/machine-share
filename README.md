@@ -30,12 +30,12 @@ docker run -it --rm ^
 docker build -t machine-share .
 
 # 标记镜像为长期稳定版本(lts, Long Time Support)
-docker tag machine-share huanghw/machine-share:lts:lts
+docker tag machine-share huanghw/machine-share:lts
 
 # 将镜像推送到Registry
-docker push huanghw/machine-share:lts:lts
+docker push huanghw/machine-share:lts
 ```
 
 
 # 从Registry中拉取镜像
-`docker pull huanghw/machine-share:lts:lts`
+`docker pull huanghw/machine-share:lts`
